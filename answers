@@ -1,0 +1,7 @@
+Many of the terms still feel unfamiliar to me, but I think the option to enable Windows Explorer integration lets me quickly access and use Git directly from my file explorer. The one option I clearly understood was choosing Notepad as my default editor—it's straightforward and the simplest to work with, which makes it a good starting point for me.
+
+Using the shell is a fast and direct way to run commands with fewer steps. Compared to a compiler like Thonny, which takes more time to open and navigate, the shell feels quicker and more efficient. It also allows you to interact with the operating system directly. I remember using it before to install software, although I can’t remember exactly what the software was.
+
+Because I entered the command "cd usr/", the shell showed "/usr" as the result when I used the pwd command.
+
+The file was a Markdown (.md) file. When I opened it, I saw three sections: the preview, the code view, and the blame tab. The preview displayed my repository name and description. The code view showed the same information, but formatted in text. The blame tab, I believe, shows the history of changes and who made them.
