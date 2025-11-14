@@ -6,15 +6,15 @@ game_running = True
 print("Welcome to Mendoza's Maze")
 print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
 while game_running:
-    move = input("Enter move (up/down/left/right): ")
+    move = input("Enter move (w = up/s = down/a = left/d = right): ")
    
-    if move == "right":
+    if move == "d":
         player_arvy += 1
-    if move == "left":
+    if move == "a":
         player_arvy-= 1
-    if move == "up":
+    if move == "w":
         player_abby += 1
-    if move == "down":
+    if move == "s":
         player_abby -= 1
 
     print(f"Player position: ({player_arvy}, {player_abby})")
