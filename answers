@@ -5,3 +5,16 @@ Using the shell is a fast and direct way to run commands with fewer steps. Compa
 Because I entered the command "cd usr/", the shell showed "/usr" as the result when I used the pwd command.
 
 The file was a Markdown (.md) file. When I opened it, I saw three sections: the preview, the code view, and the blame tab. The preview displayed my repository name and description. The code view showed the same information, but formatted in text. The blame tab, I believe, shows the history of changes and who made them.
+
+diff --git a/mendoza.py b/mendoza.py
+index f2e91f6..bf876ee 100644
+--- a/mendoza.py
++++ b/mendoza.py
+@@ -3,7 +3,6 @@ player_abby = 0
+ treasure_x = 1
+ treasure_y = 3
+ game_running = True
+-print("Welcome to Mendoza's Maze")
+ print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
+ while game_running:
+     move = input("Enter move (up/down/left/right): ")
