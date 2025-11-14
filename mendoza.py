@@ -3,6 +3,7 @@ player_abby = 0
 treasure_x = 1
 treasure_y = 3
 game_running = True
+print("Welcome to Mendoza's Maze")
 print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
 while game_running:
     move = input("Enter move (up/down/left/right): ")
